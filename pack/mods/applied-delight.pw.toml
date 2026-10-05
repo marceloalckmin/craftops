@@ -1,0 +1,13 @@
+name = "Applied Delight"
+filename = "applieddelight-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GKLhL3bQ/versions/iOgVoKAD/applieddelight-1.1.0.jar"
+hash-format = "sha512"
+hash = "85eeedf6793319d01539f37fac95cd7c91974bd253602e88d44ea2f90d825334ca3938610f9294222cc65a6aba50a4c0753ef2d53965208e50233d1fa669a744"
+
+[update]
+[update.modrinth]
+mod-id = "GKLhL3bQ"
+version = "iOgVoKAD"

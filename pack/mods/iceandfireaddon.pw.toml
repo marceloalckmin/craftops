@@ -1,0 +1,13 @@
+name = "Ice And Fire Addon"
+filename = "iceandfire_addon-1.1.1-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Vf0JUkLp/versions/KcFTh6uw/iceandfire_addon-1.1.1-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "dd27422a52c79593fbb06181ae894c45660e05d54c98216ee105a22f710ca20fc2fe137e679c202e1581e1fa928f0ac38f7fa5994039d9bac8ec4a93a9bac689"
+
+[update]
+[update.modrinth]
+mod-id = "Vf0JUkLp"
+version = "KcFTh6uw"

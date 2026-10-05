@@ -1,0 +1,13 @@
+name = "!  Norwood Pack  !"
+filename = "1.21.1 Turbopack Up.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "41bfe1db487912372eb16bba1e1e1d337dfb304b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8697067
+project-id = 1661892
