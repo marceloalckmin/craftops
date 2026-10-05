@@ -11,6 +11,8 @@ services:
       TYPE: "NEOFORGE"
       VERSION: "1.21.1"
       DIFFICULTY: "hard"
+      PACKWIZ-URL: "https://raw.githubusercontent.com/marceloalckmin/craftops/feat/server-base/pack/pack.toml" #IMPORTANT!!!!!!! CHANGE THIS TO MAIN AFTER MERGE
+
 
 
     volumes:
