@@ -1,0 +1,13 @@
+name = "Orbital Railgun: Renewed"
+filename = "orbital_railgun-1.2.0+mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/m2HPONcc/versions/uwBghLas/orbital_railgun-1.2.0%2Bmc1.21.1.jar"
+hash-format = "sha512"
+hash = "40f31f65ba435dc990e8b9afd564510f1d6d48019406799e9be0dd7cf5d125e7d370aefe69a700d5827c8a003ac112ab4f28d88e5611dca331c01295af16cc95"
+
+[update]
+[update.modrinth]
+mod-id = "m2HPONcc"
+version = "uwBghLas"

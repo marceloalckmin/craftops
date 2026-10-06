@@ -1,0 +1,6 @@
+.env
+*.jar
+data/
+failed-mods.txt
+mods/
+minecraft-data/
