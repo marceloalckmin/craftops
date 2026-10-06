@@ -1,9 +1,28 @@
+.PHONY: up down restart logs add-mods
+
 COMPOSE := docker compose
 
-up: $(COMPOSE) up -d
+up:
+	$(COMPOSE) up -d
 
-down: $(COMPOSE) down
+down:
+	$(COMPOSE) down
 
-restart: $(COMPOSE) restart mc
+restart:
+	$(COMPOSE) restart mc
 
-logs: $(COMPOSE) logs -f mc
+reset:
+	$(COMPOSE) down
+	rm -rf minecraft-data
+
+logs:
+	$(COMPOSE) logs -f mc
+
+add-mods:
+	scripts/add-mods.sh $(FILE)
+
+pack-serve:
+	cd pack && packwiz serve
+
+pack-refresh:
+	cd pack && packwiz refresh

@@ -1,6 +1,6 @@
 services:
   mc:
-    image: itzg/minecraft-server:latest
+    image: itzg/minecraft-server:java21
     pull_policy: daily
     tty: true
     stdin_open: true
@@ -11,10 +11,16 @@ services:
       TYPE: "NEOFORGE"
       VERSION: "1.21.1"
       DIFFICULTY: "hard"
-      PACKWIZ-URL: "https://raw.githubusercontent.com/marceloalckmin/craftops/feat/server-base/pack/pack.toml" #IMPORTANT!!!!!!! CHANGE THIS TO MAIN AFTER MERGE
+      PACKWIZ_URL: ${PACKWIZ_URL}
+      NEOFORGE_VERSION: ${NEOFORGE_VERSION}
+      MEMORY: ${MC_MEMORY}
+      OPS: ${OPS}
 
 
 
     volumes:
       - ./minecraft-data:/data
       - ./mods:/mods
+    
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
