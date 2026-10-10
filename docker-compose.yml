@@ -17,7 +17,7 @@ services:
       OPS: ${OPS}
       ONLINE_MODE: "FALSE"
       MOTD: "§6R8US SERVER - BEM VINDO (PRA ALGUNS)"
-      ICON: "server-icon.png"
+      ICON: "/data/server-icon.png"
 
 
 
