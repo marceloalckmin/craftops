@@ -18,6 +18,7 @@ services:
       ONLINE_MODE: "FALSE"
       MOTD: "§6R8US SERVER - BEM VINDO (PRA ALGUNS)"
       ICON: "/data/server-icon.png"
+      SPAWN_PROTECTION: "0"
 
 
 
