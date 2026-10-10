@@ -15,6 +15,9 @@ services:
       NEOFORGE_VERSION: ${NEOFORGE_VERSION}
       MEMORY: ${MC_MEMORY}
       OPS: ${OPS}
+      ONLINE_MODE: "FALSE"
+      MOTD: "§6R8US SERVER - BEM VINDO (PRA ALGUNS)"
+      ICON: "server-icon.png"
 
 
 
