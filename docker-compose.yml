@@ -10,7 +10,7 @@ services:
       EULA: "TRUE"
       TYPE: "NEOFORGE"
       VERSION: "1.21.1"
-      DIFFICULTY: "hard"
+      DIFFICULTY: "normal"
       PACKWIZ_URL: ${PACKWIZ_URL}
       NEOFORGE_VERSION: ${NEOFORGE_VERSION}
       MEMORY: ${MC_MEMORY}
